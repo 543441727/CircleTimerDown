@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleTimerView">
+
+        <attr name="solid_circle_radius" format="dimension"/>
+        <attr name="solid_circle_color" format="color"/>
+        <attr name="empty_circle_color" format="color"/>
+        <attr name="empty_circle_radius" format="dimension"/>
+        <attr name="circle_text_size" format="dimension"/>
+        <attr name="circle_text_color" format="color"/>
+
+        <attr name="circle_draw_orientation" format="enum">
+            <!--顺时针-->
+            <enum name="clockwise" value="1"/>
+            <!--逆时针-->
+            <enum name="anticlockwise" value="2"/>
+        </attr>
+
+        <attr name="time_length" format="integer"/>
+
+    </declare-styleable>
+</resources>

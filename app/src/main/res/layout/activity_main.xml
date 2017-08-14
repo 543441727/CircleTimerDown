@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:circletimerview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:padding="2dp"
+    tools:context="com.ysten.circletimerdown.MainActivity">
+
+       <com.ysten.circletimerdown.view.CircleTimerView
+           android:layout_alignParentRight="true"
+           android:id="@+id/circle_timer"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           circletimerview:solid_circle_radius = "20dp"
+           circletimerview:empty_circle_radius = "22dp"
+           circletimerview:solid_circle_color = "@color/colorPrimaryDark"
+           circletimerview:empty_circle_color = "#3F51B5"
+           circletimerview:circle_text_color = "@android:color/white"
+           circletimerview:circle_text_size = "16sp"
+           circletimerview:circle_draw_orientation = "clockwise"
+           circletimerview:time_length = "5"
+           />
+
+</RelativeLayout>
