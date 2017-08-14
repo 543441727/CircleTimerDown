@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements CircleTimerView.O
     }
 
     private void initView() {
+
+
         mCircleTimerView = (CircleTimerView) findViewById(R.id.circle_timer);
         mCircleTimerView.setOnClickListener(new View.OnClickListener() {
             @Override
